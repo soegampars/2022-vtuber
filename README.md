@@ -4,3 +4,6 @@ by Immanuel Satya Pekerti
 
 The repository keeps the data and programming scripts used throughout the project.
 Anyone who wish to extend or simply replicate the analysis may use the data provided in this repository.
+
+## Notes on the data cleaning
+1. Author found videos with disabled view count and unclear/unavailable date, and decided to omit such observations.
