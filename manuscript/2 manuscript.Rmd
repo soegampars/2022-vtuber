@@ -1,0 +1,51 @@
+---
+title: "Analysis of Indonesian Virtual YouTubers Viewership"
+subtitle: "Draft Manuscript"
+author: "Immanuel Satya Pekerti"
+date: "`r Sys.Date()`"
+output: pdf_document
+bibliography: bibliography.bib
+csl: elsevier-harvard.csl
+---
+
+## Abstract
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit.
+
+## Introduction
+<!-- Research objective -->
+The study aims to better understand the determinants of Indonesian Virtual YouTubers viewership.
+<!-- Research questions -->
+Author has set out four research questions to guide the direction of our investigation.
+First, this study asks what are the factors affect the viewership of a virtual YouTuber talent.
+Second, author also wants to know whether the gender of the talent affects the viewership growth.
+Third, whether certain combination of talent and content type help boost viewership growth.
+Fourth, whether the viewership growth follows a certain pattern across time.
+
+- Does being in an agency helps boost viewership?
+- Does longer video duration bring more viewers?
+- Has the VTuber industry reached its peak? Has the market been saturated?
+If not, then why are there numerous talents who retire early? (What is the measure of 'early'?)
+- How is the growth of viewership (demand proxy) of such contents? Does it have quadratic, linear, or exponential pattern?
+- What is the concentration of demand (in person hours) among the talents? Deriving from this, what is the state of the competition among talents and agencies?
+- How does the independent talents fare against the circles/agencies? How do they stay in the fight, or even flourish in the face of such competition?
+
+<!-- Background -->
+The digital entertainment has seen an emergence of a new entertainment genre with audience.
+
+<!-- Urgency and importance -->
+
+<!-- Scope and limitation -->
+Limited to this particular scope since the relatively homogenous content-creating patterns (e.g., content type, interaction patterns, etc.).
+
+<!-- Brief results -->
+
+## Virtual YouTuber: The Rise of the New Genre of Entertainment
+
+## The YouTube viewers behaviour: What have we know thus far?
+
+## Data and Methodology
+
+## Results and Discussion
+
+## Conclusion

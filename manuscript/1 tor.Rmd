@@ -1,0 +1,48 @@
+---
+title: "Analysis of Indonesian Virtual YouTubers Viewership"
+subtitle: "Terms of Reference"
+author: "Immanuel Satya Pekerti"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: pdf_document
+bibliography: bibliography.bib
+csl: elsevier-harvard.csl
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Background and Previous Studies
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit.
+
+## Research Objective
+
+The study aims to understand better the determinants of Indonesian Virtual YouTubers viewership.
+Limited to this particular scope since the relatively homogenous content-creating patterns (e.g., content type, interaction patterns, etc.).
+
+## Research Questions
+
+1. What are the factors affecting view count of a certain virtual YouTuber?
+    - Gender
+    - Content types
+    - Duration since debut
+    - Language ability (declared)
+    - Regional characteristics (accent)
+    - 3D model availability
+  
+2. Whether gender of the talent affect the growth of viewership?
+3. Whether certain combination of talent and content boost viewership?
+4. Whether the growth of viewers follows a certain pattern across time after controlling for idiosyncratic characteristics?
+
+## Urgency and Importance
+
+I don't really know. This is just for fun, after all.
+
+## Data and Methodology
+
+Data regarding the YouTube video metadata is retrieved from https://mattw.io/youtube-metadata/bulk by Matthew Wright.
+
+Analysis will be conducted using fixed-effect panel data analysis.
+
+Fixed effect control: Agency and personality
