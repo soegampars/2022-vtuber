@@ -4,7 +4,7 @@ subtitle: "Terms of Reference"
 author: "Immanuel Satya Pekerti"
 date: "`r format(Sys.time(), '%d %B %Y')`"
 output: pdf_document
-bibliography: bibliography.bib
+#bibliography: bibliography.bib
 csl: elsevier-harvard.csl
 ---
 

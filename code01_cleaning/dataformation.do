@@ -12,6 +12,8 @@ if(inlist("$suser", "satya")){
 global localraw 	"database\vtuber\raw"
 global gitraw		"GitHub\2022-vtuber\data01_raw"
 global gitoutput	"GitHub\2022-vtuber\data02_processed"
+global gitcode01	"GitHub\2022-vtuber\code01_cleaning"
+global gitcode02	"GitHub\2022-vtuber\code02_analysis"
 
 *******************************************************
 
@@ -35,9 +37,22 @@ by author: gen datedebut1 = date if nvideo == 1
 	format date %td
 	by author: egen datedebut = max(datedebut1)
 	drop datedebut1
+	format datedebut %td
+
 gen careerlength = date-datedebut
+
+** Creating author list
+rename author author3
+gen author2 = substr(author3,84,.)
+gen author = substr(author2,1,length(author2)-4)
+
+gen agency = ""
+	replace agency = "NIJISANJI ID" if strpos(author,"NIJISANJI") > 0 | author == "Azura Cecillia Ch."
+	replace agency = "HOLOLIVE ID" if strpos(author,"hololive") > 0
+	replace agency = "MAHA5" if strpos(author,"MAHA5") > 0 | author == "NANARIKA Channel"
+	
+drop author2 author3
 
 ** Save data to .dta format
 compress
 save $gitoutput/dataset, replace
-
