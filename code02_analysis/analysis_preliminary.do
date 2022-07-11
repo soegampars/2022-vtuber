@@ -103,14 +103,14 @@ duplicates drop author_code careerlength, force
 xtset author_code careerlength
 
 ** Model Redefinition
-local modela1 views 	debut careerlength 
-local modela2 views 	debut careerlength female
-local modela3 views 	debut careerlength female i.agency_code
-local modela4 views 	debut careerlength female i.agency_code b7.contenttype_code
-local modelb1 views 	debut careerlength careerlength_sq 
-local modelb2 views 	debut careerlength careerlength_sq female
-local modelb3 views 	debut careerlength careerlength_sq female i.agency_code
-local modelb4 views 	debut careerlength careerlength_sq female i.agency_code b7.contenttype_code
+local modela1 views 	i.debut careerlength 
+local modela2 views 	i.debut careerlength i. female
+local modela3 views 	i.debut careerlength i. female i.agency_code
+local modela4 views 	i.debut careerlength i. female i.agency_code b7.contenttype_code
+local modelb1 views 	i.debut careerlength careerlength_sq 
+local modelb2 views 	i.debut careerlength careerlength_sq i.female
+local modelb3 views 	i.debut careerlength careerlength_sq i.female i.agency_code
+local modelb4 views 	i.debut careerlength careerlength_sq i.female i.agency_code b7.contenttype_code
 
 forval x = 1/4{
 

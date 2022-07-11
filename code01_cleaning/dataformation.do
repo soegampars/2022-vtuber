@@ -39,12 +39,15 @@ format date %td
 sort author date 
 drop in 1/2
 by author: gen nvideo = _n
-gen debut = ustrregexm(title, "debut", 1) > 0 & nvideo <=10
+gen debut = ustrregexm(title, "debut", 1) > 0 & nvideo <=10 & lengthseconds > 1000
+	replace debut = 1 if nvideo <= 2 & lengthseconds > 1000
 by author: gen datedebut1 = date if debut == 1
 	format date %td
 	by author: egen datedebut = min(datedebut1)
 	drop datedebut1
 	format datedebut %td
+replace debut = 1 if datedebut == . & nvideo == 1
+replace datedebut = date if datedebut == . & nvideo == 1
 
 gen careerlength = date-datedebut
 gen careerlength_sq = careerlength^2
