@@ -1,0 +1,250 @@
+------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  D:\GitHub\2022-vtuber\data02_processed/log_ols_agency2.log
+  log type:  text
+ opened on:  11 Jul 2022, 23:18:33
+
+------------------------------------------------------------------------------------
+                              (1)             (2)             (3)             (4)   
+                            Views           Views           Views           Views   
+------------------------------------------------------------------------------------
+Days since debut v~o       -11.00          -37.10          -11.00          -180.5*  
+                          (66.94)         (77.68)         (66.94)         (94.60)   
+
+Days since debut v~)      0.00163          0.0300         0.00163           0.219*  
+                           (0.10)          (0.11)          (0.10)          (0.13)   
+
+Debut video (dummy~1      97443.0**       98178.6**       97443.0**        6368.7   
+                       (47408.13)      (48277.79)      (47408.13)      (12473.52)   
+
+Female (dummy)=1                          16496.3*                       198674.0***
+                                        (9277.36)                          (0.03)   
+
+MAHA5                                                           0               0   
+                                                              (.)             (.)   
+
+Andi Adinata【MA~5】                                                     237154.0***
+                                                                           (0.02)   
+
+Kevin Vangardo【~5】                                                     -93066.4***
+                                                                        (9225.58)   
+
+Lumi Celestia【M~5】                                                    -261460.6***
+                                                                       (10279.23)   
+
+NANARIKA Channel                                                        -296974.8***
+                                                                        (9903.09)   
+
+Nia Redalion【MA~5】                                                    -273402.2***
+                                                                       (10577.48)   
+
+Rena Anggraeni【~5】                                                    -298119.7***
+                                                                        (9244.42)   
+
+Zen Gunawan【MAHA5】                                                            0   
+                                                                              (.)   
+
+Fall Guys                                                                -15517.6***
+                                                                        (5962.57)   
+
+Freetalk                                                                   1413.4   
+                                                                        (3413.52)   
+
+Genshin/Honkai                                                             2923.0   
+                                                                        (4238.06)   
+
+Karaoke                                                                    7919.7*  
+                                                                        (4437.34)   
+
+Minecraft                                                                 12859.8** 
+                                                                        (6348.29)   
+
+Music                                                                    180613.9** 
+                                                                       (85238.36)   
+
+Others                                                                     6806.6***
+                                                                        (2481.59)   
+
+Valorant                                                                   3262.0***
+                                                                         (765.87)   
+
+Andi Adinata【MAHA~s                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~k                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~o                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~e                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~t                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~c                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~s                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~t                                                            0   
+                                                                              (.)   
+
+Kevin Vangardo【MA~y                                                            0   
+                                                                              (.)   
+
+Kevin Vangardo【MA~k                                                      -3694.2   
+                                                                        (5465.24)   
+
+Kevin Vangardo【MA~/                                                      -2001.9   
+                                                                        (6009.79)   
+
+Kevin Vangardo【MA~e                                                      -2662.1   
+                                                                        (4904.46)   
+
+Kevin Vangardo【MA~f                                                      -9797.8   
+                                                                        (7323.79)   
+
+Kevin Vangardo【MA~c                                                    -170784.3** 
+                                                                       (84724.96)   
+
+Kevin Vangardo【MA~s                                                      -2720.4   
+                                                                        (3267.26)   
+
+Kevin Vangardo【MA~t                                                            0   
+                                                                              (.)   
+
+Lumi Celestia【MAH~s                                                      17490.4   
+                                                                       (10668.31)   
+
+Lumi Celestia【MAH~k                                                      -6851.5   
+                                                                        (5875.75)   
+
+Lumi Celestia【MAH~H                                                      -8371.1   
+                                                                        (6073.07)   
+
+Lumi Celestia【MAH~e                                                     -21920.4***
+                                                                        (5209.72)   
+
+Lumi Celestia【MAH~t                                                       2056.4   
+                                                                        (7039.89)   
+
+Lumi Celestia【MAH~c                                                      78614.4   
+                                                                        (1.2e+05)   
+
+Lumi Celestia【MAH~s                                                            0   
+                                                                              (.)   
+
+Lumi Celestia【MAH~t                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~s                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~k                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~a                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~e                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~t                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~c                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~s                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~t                                                            0   
+                                                                              (.)   
+
+Nia Redalion【MAHA~s                                                            0   
+                                                                              (.)   
+
+Nia Redalion【MAHA~k                                                            0   
+                                                                              (.)   
+
+Nia Redalion【MAHA~o                                                            0   
+                                                                              (.)   
+
+Nia Redalion【MAHA~e                                                      -7283.2   
+                                                                        (4970.79)   
+
+Nia Redalion【MAHA~t                                                            0   
+                                                                              (.)   
+
+Nia Redalion【MAHA~c                                                            0   
+                                                                              (.)   
+
+Nia Redalion【MAHA~s                                                            0   
+                                                                              (.)   
+
+Nia Redalion【MAHA~t                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~y                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~k                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~/                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~e                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~f                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~c                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~s                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~t                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~s                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~k                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~n                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~e                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~t                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~c                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~s                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~t                                                            0   
+                                                                              (.)   
+
+Constant                  25870.5**       14824.7**       25870.5**      109540.8***
+                       (10114.49)       (5746.03)      (10114.49)      (11878.44)   
+------------------------------------------------------------------------------------
+Observations                  582             582             582             582   
+------------------------------------------------------------------------------------
+Standard errors in parentheses
+* p<0.10, ** p<0.05, *** p<0.01
+      name:  <unnamed>
+       log:  D:\GitHub\2022-vtuber\data02_processed/log_ols_agency2.log
+  log type:  text
+ closed on:  11 Jul 2022, 23:18:33
+------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,274 @@
+------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  D:\GitHub\2022-vtuber\data02_processed/log_ols_gender0.log
+  log type:  text
+ opened on:  11 Jul 2022, 23:18:35
+
+------------------------------------------------------------------------------------
+                              (1)             (2)             (3)             (4)   
+                            Views           Views           Views           Views   
+------------------------------------------------------------------------------------
+Days since debut v~o        10.60**         10.60**         15.02***        12.18***
+                           (4.31)          (4.31)          (4.76)          (3.93)   
+
+Days since debut v~)      -0.0133***      -0.0133***      -0.0170***      -0.0157***
+                           (0.00)          (0.00)          (0.00)          (0.00)   
+
+Debut video (dummy~1      73320.7*        73320.7*        71218.7*        19427.1***
+                       (39498.59)      (39498.59)      (37866.78)       (4949.28)   
+
+Female (dummy)=0                                0                               0   
+                                              (.)                             (.)   
+
+NIJISANJI ID                                              -8722.0**     -334990.0***
+                                                        (3680.42)       (4919.52)   
+
+Bonnivier Pranaja ~                                                        5590.8***
+                                                                        (1153.67)   
+
+Kevin Vangardo【~5】                                                    -335926.6***
+                                                                        (4958.89)   
+
+Rai Galilei【NIJI~】                                                      -1802.7***
+                                                                         (489.56)   
+
+Reza Avanluna 【N~じ                                                      -3163.0***
+                                                                         (481.73)   
+
+Riksa Dhirendra【~】                                                      -2383.7***
+                                                                         (645.67)   
+
+Taka Radjiman【NI~】                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5】                                                    -237154.0***
+                                                                           (0.02)   
+
+Fall Guys                                                                  2865.8***
+                                                                         (962.95)   
+
+Freetalk                                                                   1788.6   
+                                                                        (1816.80)   
+
+Genshin/Honkai                                                             2020.4***
+                                                                         (536.94)   
+
+Karaoke                                                                   18803.7*  
+                                                                       (10972.48)   
+
+Minecraft                                                                  5830.7***
+                                                                        (1623.40)   
+
+Music                                                                     85856.0***
+                                                                       (19935.33)   
+
+Others                                                                     1949.9***
+                                                                         (566.13)   
+
+Phasmo                                                                    12810.4***
+                                                                        (4665.99)   
+
+Valorant                                                                   4493.2***
+                                                                        (1070.80)   
+
+Bonnivier Pranaja ~                                                       -4985.8***
+                                                                        (1904.41)   
+
+Bonnivier Pranaja ~                                                       -6306.4***
+                                                                        (2283.04)   
+
+Bonnivier Pranaja ~                                                             0   
+                                                                              (.)   
+
+Bonnivier Pranaja ~                                                             0   
+                                                                              (.)   
+
+Bonnivier Pranaja ~                                                       -6362.6***
+                                                                        (2396.54)   
+
+Bonnivier Pranaja ~                                                      -45701.1*  
+                                                                       (27472.11)   
+
+Bonnivier Pranaja ~                                                       -2628.3*  
+                                                                        (1472.18)   
+
+Bonnivier Pranaja ~                                                       -7664.9   
+                                                                        (6184.70)   
+
+Bonnivier Pranaja ~                                                       -6661.8***
+                                                                        (2045.03)   
+
+Kevin Vangardo【MA~y                                                            0   
+                                                                              (.)   
+
+Kevin Vangardo【MA~k                                                       3032.1*  
+                                                                        (1827.91)   
+
+Kevin Vangardo【MA~/                                                       4615.2***
+                                                                         (504.69)   
+
+Kevin Vangardo【MA~e                                                     -15727.0   
+                                                                       (11022.01)   
+
+Kevin Vangardo【MA~f                                                       -793.1   
+                                                                        (3032.10)   
+
+Kevin Vangardo【MA~c                                                     -82513.4***
+                                                                       (20021.28)   
+
+Kevin Vangardo【MA~s                                                       4724.0***
+                                                                        (1231.20)   
+
+Kevin Vangardo【MA~o                                                            0   
+                                                                              (.)   
+
+Kevin Vangardo【MA~t                                                       -200.3   
+                                                                        (1094.56)   
+
+Rai Galilei【NIJIS~#                                                            0   
+                                                                              (.)   
+
+Rai Galilei【NIJIS~#                                                      -2166.6   
+                                                                        (1864.69)   
+
+Rai Galilei【NIJIS~#                                                            0   
+                                                                              (.)   
+
+Rai Galilei【NIJIS~#                                                     -14347.8   
+                                                                       (10945.87)   
+
+Rai Galilei【NIJIS~#                                                      -5295.9***
+                                                                        (1682.86)   
+
+Rai Galilei【NIJIS~#                                                     -30780.2   
+                                                                       (28956.17)   
+
+Rai Galilei【NIJIS~#                                                       -766.1   
+                                                                         (867.64)   
+
+Rai Galilei【NIJIS~#                                                     -10767.6** 
+                                                                        (4710.76)   
+
+Rai Galilei【NIJIS~#                                                      -3783.6***
+                                                                        (1129.00)   
+
+Reza Avanluna 【N~じ                                                      -2482.7** 
+                                                                        (1045.08)   
+
+Reza Avanluna 【N~じ                                                       -963.8   
+                                                                        (1853.63)   
+
+Reza Avanluna 【N~じ                                                       1183.8   
+                                                                         (929.34)   
+
+Reza Avanluna 【N~じ                                                     -11948.5   
+                                                                       (10973.67)   
+
+Reza Avanluna 【N~じ                                                      -2735.3   
+                                                                        (1674.33)   
+
+Reza Avanluna 【N~じ                                                     -78102.6***
+                                                                       (20227.10)   
+
+Reza Avanluna 【N~じ                                                       1146.3   
+                                                                         (831.22)   
+
+Reza Avanluna 【N~じ                                                     -10125.5** 
+                                                                        (4829.19)   
+
+Reza Avanluna 【N~じ                                                      -3700.2***
+                                                                        (1147.87)   
+
+Riksa Dhirendra【N~l                                                      -1725.1   
+                                                                        (1175.87)   
+
+Riksa Dhirendra【N~e                                                      -1090.5   
+                                                                        (1920.56)   
+
+Riksa Dhirendra【N~n                                                       -520.0   
+                                                                         (851.67)   
+
+Riksa Dhirendra【N~r                                                     -11679.2   
+                                                                       (11006.46)   
+
+Riksa Dhirendra【N~n                                                      -3446.4** 
+                                                                        (1742.95)   
+
+Riksa Dhirendra【N~s                                                     -26535.8   
+                                                                       (45449.05)   
+
+Riksa Dhirendra【N~h                                                       -994.4   
+                                                                         (834.76)   
+
+Riksa Dhirendra【N~a                                                     -11198.8** 
+                                                                        (4730.13)   
+
+Riksa Dhirendra【N~l                                                      -5035.3***
+                                                                        (1198.05)   
+
+Taka Radjiman【NI~】                                                            0   
+                                                                              (.)   
+
+Taka Radjiman【NI~】                                                            0   
+                                                                              (.)   
+
+Taka Radjiman【NI~】                                                            0   
+                                                                              (.)   
+
+Taka Radjiman【NI~】                                                            0   
+                                                                              (.)   
+
+Taka Radjiman【NI~】                                                            0   
+                                                                              (.)   
+
+Taka Radjiman【NI~】                                                            0   
+                                                                              (.)   
+
+Taka Radjiman【NI~】                                                            0   
+                                                                              (.)   
+
+Taka Radjiman【NI~】                                                            0   
+                                                                              (.)   
+
+Taka Radjiman【NI~】                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~s                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~k                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~n                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~e                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~t                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~c                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~s                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~o                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~t                                                            0   
+                                                                              (.)   
+
+Constant                   5510.8***       5510.8***      13064.0***     338493.0***
+                         (698.57)        (698.57)       (3208.15)       (4995.83)   
+------------------------------------------------------------------------------------
+Observations                 2299            2299            2299            2299   
+------------------------------------------------------------------------------------
+Standard errors in parentheses
+* p<0.10, ** p<0.05, *** p<0.01
+      name:  <unnamed>
+       log:  D:\GitHub\2022-vtuber\data02_processed/log_ols_gender0.log
+  log type:  text
+ closed on:  11 Jul 2022, 23:18:35
+------------------------------------------------------------------------------------------------------------------

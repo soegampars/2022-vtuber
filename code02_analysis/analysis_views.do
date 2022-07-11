@@ -19,15 +19,79 @@ capture: log close
 est clear
 *******************************************************
 
-/*
-Temporary notes:
-1. Check for heterogeneity in results between agencies
-2. Check for results in OLS, clustered OLS, and FE
-
-Temporary result:
-1. 	Apparently from the analysis of ln_views, there's a quadratic growth pattern in views for NIJISANJI
-	No clear trend whatsoever for MAHA5 and HOLOLIVE.
-*/
-
 ** Data loading
 use $gitoutput/dataset, clear
+
+** Model specification
+local model1 views	careerlength careerlength_sq i.debut
+local model2 views	careerlength careerlength_sq i.debut i.female
+local model3 views	careerlength careerlength_sq i.debut i.agency_code
+local model4 views	careerlength careerlength_sq i.debut i.female i.agency_code i.author_code##i.contenttype_code
+
+** Analysis - General
+forval x = 1/4{
+
+qui: reg `model`x'', robust
+eststo model`x'
+
+}
+
+log using $gitoutput/log_ols_general.log, replace
+
+esttab model*, star(* 0.10 ** 0.05 *** 0.01) se(%7.2f) nobase l
+est clear
+
+log close
+
+** Analysis - Heterogeneity: Agency
+forval ag = 1/3{
+
+forval x = 1/4{
+
+qui: reg `model`x'' if agency_code == `ag', robust
+eststo model`x'
+
+}
+
+log using $gitoutput/log_ols_agency`ag'.log, replace
+
+esttab model*, star(* 0.10 ** 0.05 *** 0.01) se(%7.2f) nobase l
+est clear
+
+log close
+
+}
+
+** Analysis - Heterogeneity: Gender
+forval gd = 0/1 {
+
+forval x = 1/4{
+
+qui: reg `model`x'' if female == `gd', robust
+eststo model`x'
+
+}
+
+log using $gitoutput/log_ols_gender`gd'.log, replace
+
+esttab model*, star(* 0.10 ** 0.05 *** 0.01) se(%7.2f) nobase l
+est clear
+
+log close
+}
+
+
+** Analysis - Cluster: Authors
+forval x = 1/4{
+
+qui: reg `model`x'', robust cluster(author_code)
+eststo model`x'
+
+}
+
+log using $gitoutput/log_ols_clustauth.log, replace
+
+esttab model*, star(* 0.10 ** 0.05 *** 0.01) se(%7.2f) nobase l
+est clear
+
+log close

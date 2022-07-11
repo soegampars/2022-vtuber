@@ -1,0 +1,277 @@
+------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  D:\GitHub\2022-vtuber\data02_processed/log_ols_agency1.log
+  log type:  text
+ opened on:  11 Jul 2022, 23:18:33
+
+------------------------------------------------------------------------------------
+                              (1)             (2)             (3)             (4)   
+                            Views           Views           Views           Views   
+------------------------------------------------------------------------------------
+Days since debut v~o       -93.46          -93.46          -93.46          -40.17   
+                          (73.38)         (73.38)         (73.38)         (68.86)   
+
+Days since debut v~)       0.0769          0.0769          0.0769         0.00368   
+                           (0.09)          (0.09)          (0.09)          (0.09)   
+
+Debut video (dummy~1     378932.7***     378932.7***     378932.7***     392833.9***
+                       (85957.12)      (85957.12)      (85957.12)      (82927.31)   
+
+Female (dummy)=1                                0                               0   
+                                              (.)                             (.)   
+
+HOLOLIVE ID                                                     0               0   
+                                                              (.)             (.)   
+
+Anya Melfissa.. ho~D                                                     -14197.5** 
+                                                                        (6233.18)   
+
+Ayunda Risu Ch. ho~D                                                      30634.7*  
+                                                                       (15958.15)   
+
+Kaela Kovalsk.. ho~D                                                      -3094.8   
+                                                                        (9731.19)   
+
+Kobo Kanaeru .. ho~D                                                      97665.6***
+                                                                       (11554.04)   
+
+Kureiji Ollie.. ho~D                                                      38753.9***
+                                                                        (6303.44)   
+
+Moona Hoshinova ho~D                                                      26923.0** 
+                                                                       (12682.56)   
+
+Pavolia Reine.. ho~D                                                        322.6   
+                                                                        (7382.47)   
+
+Vestia Zeta Ch. ho~D                                                      85181.8*  
+                                                                       (45654.45)   
+
+Fall Guys                                                                -16328.6** 
+                                                                        (6521.36)   
+
+Freetalk                                                                  -6924.4   
+                                                                        (5499.59)   
+
+Karaoke                                                                    2584.4   
+                                                                        (4228.22)   
+
+Minecraft                                                                 12660.1*  
+                                                                        (6762.37)   
+
+Music                                                                    148044.2***
+                                                                       (55402.10)   
+
+Others                                                                     2299.9   
+                                                                        (3329.31)   
+
+Phasmo                                                                     1596.0   
+                                                                        (6856.96)   
+
+Valorant                                                                 -18350.8   
+                                                                       (58821.31)   
+
+Anya Melfissa.. ho~s                                                      19831.1***
+                                                                        (7599.40)   
+
+Anya Melfissa.. ho~k                                                       4303.6   
+                                                                        (7084.42)   
+
+Anya Melfissa.. ho~e                                                       -121.9   
+                                                                        (8859.51)   
+
+Anya Melfissa.. ho~t                                                       8072.6   
+                                                                       (13211.56)   
+
+Anya Melfissa.. ho~c                                                     157870.7   
+                                                                        (1.2e+05)   
+
+Anya Melfissa.. ho~s                                                       3945.9   
+                                                                        (6732.67)   
+
+Anya Melfissa.. ho~o                                                            0   
+                                                                              (.)   
+
+Anya Melfissa.. ho~t                                                            0   
+                                                                              (.)   
+
+Ayunda Risu Ch. ho~s                                                     -19625.2   
+                                                                       (18348.90)   
+
+Ayunda Risu Ch. ho~k                                                     -18831.7   
+                                                                       (16640.20)   
+
+Ayunda Risu Ch. ho~e                                                      13883.4   
+                                                                       (45708.14)   
+
+Ayunda Risu Ch. ho~t                                                     -27469.1   
+                                                                       (17423.74)   
+
+Ayunda Risu Ch. ho~c                                                     456269.3   
+                                                                        (4.1e+05)   
+
+Ayunda Risu Ch. ho~s                                                     -25728.3   
+                                                                       (16390.97)   
+
+Ayunda Risu Ch. ho~o                                                            0   
+                                                                              (.)   
+
+Ayunda Risu Ch. ho~t                                                            0   
+                                                                              (.)   
+
+Kaela Kovalsk.. ho~s                                                            0   
+                                                                              (.)   
+
+Kaela Kovalsk.. ho~k                                                     -11951.9   
+                                                                        (7635.32)   
+
+Kaela Kovalsk.. ho~e                                                            0   
+                                                                              (.)   
+
+Kaela Kovalsk.. ho~t                                                      19896.4*  
+                                                                       (10269.42)   
+
+Kaela Kovalsk.. ho~c                                                            0   
+                                                                              (.)   
+
+Kaela Kovalsk.. ho~s                                                            0   
+                                                                              (.)   
+
+Kaela Kovalsk.. ho~o                                                            0   
+                                                                              (.)   
+
+Kaela Kovalsk.. ho~t                                                            0   
+                                                                              (.)   
+
+Kobo Kanaeru .. ho~s                                                            0   
+                                                                              (.)   
+
+Kobo Kanaeru .. ho~k                                                      54448.2***
+                                                                       (20181.84)   
+
+Kobo Kanaeru .. ho~e                                                     264748.3** 
+                                                                        (1.3e+05)   
+
+Kobo Kanaeru .. ho~t                                                     107344.4   
+                                                                       (70568.15)   
+
+Kobo Kanaeru .. ho~c                                                    1200662.4   
+                                                                        (9.2e+05)   
+
+Kobo Kanaeru .. ho~s                                                      92340.4***
+                                                                       (22707.94)   
+
+Kobo Kanaeru .. ho~o                                                            0   
+                                                                              (.)   
+
+Kobo Kanaeru .. ho~t                                                     182294.7***
+                                                                       (66943.56)   
+
+Kureiji Ollie.. ho~s                                                       -166.3   
+                                                                        (8992.43)   
+
+Kureiji Ollie.. ho~k                                                      -4289.9   
+                                                                        (9959.12)   
+
+Kureiji Ollie.. ho~e                                                     -25109.3** 
+                                                                       (11033.16)   
+
+Kureiji Ollie.. ho~t                                                       5114.8   
+                                                                       (10316.48)   
+
+Kureiji Ollie.. ho~c                                                     165303.8   
+                                                                        (2.0e+05)   
+
+Kureiji Ollie.. ho~s                                                       8532.7   
+                                                                        (7515.13)   
+
+Kureiji Ollie.. ho~o                                                      35007.6   
+                                                                       (28170.43)   
+
+Kureiji Ollie.. ho~t                                                      14888.5   
+                                                                       (60797.42)   
+
+Moona Hoshinova ho~a                                                     -23132.3*  
+                                                                       (13434.82)   
+
+Moona Hoshinova ho~r                                                      21391.2   
+                                                                       (16728.37)   
+
+Moona Hoshinova ho~a                                                      22897.4   
+                                                                       (19623.54)   
+
+Moona Hoshinova ho~i                                                      75951.7***
+                                                                       (16904.91)   
+
+Moona Hoshinova ho~u                                                     943744.8***
+                                                                        (3.5e+05)   
+
+Moona Hoshinova ho~t                                                       6812.4   
+                                                                       (14024.96)   
+
+Moona Hoshinova ho~h                                                      53056.5***
+                                                                       (12947.63)   
+
+Moona Hoshinova ho~a                                                     -37421.1   
+                                                                       (59978.25)   
+
+Pavolia Reine.. ho~s                                                      16696.1   
+                                                                       (10251.47)   
+
+Pavolia Reine.. ho~k                                                        625.7   
+                                                                        (8030.99)   
+
+Pavolia Reine.. ho~e                                                      23294.8** 
+                                                                       (11310.14)   
+
+Pavolia Reine.. ho~t                                                       5713.5   
+                                                                        (8183.89)   
+
+Pavolia Reine.. ho~c                                                     336906.4   
+                                                                        (2.2e+05)   
+
+Pavolia Reine.. ho~s                                                       1291.4   
+                                                                        (5754.02)   
+
+Pavolia Reine.. ho~o                                                       8601.3   
+                                                                       (13908.10)   
+
+Pavolia Reine.. ho~t                                                            0   
+                                                                              (.)   
+
+Vestia Zeta Ch. ho~s                                                            0   
+                                                                              (.)   
+
+Vestia Zeta Ch. ho~k                                                            0   
+                                                                              (.)   
+
+Vestia Zeta Ch. ho~e                                                        960.1   
+                                                                       (44860.22)   
+
+Vestia Zeta Ch. ho~t                                                     -54118.6   
+                                                                       (45322.10)   
+
+Vestia Zeta Ch. ho~c                                                     489976.3***
+                                                                       (71225.19)   
+
+Vestia Zeta Ch. ho~s                                                     -65768.7   
+                                                                       (45219.21)   
+
+Vestia Zeta Ch. ho~o                                                            0   
+                                                                              (.)   
+
+Vestia Zeta Ch. ho~t                                                            0   
+                                                                              (.)   
+
+Constant                  97441.3***      97441.3***      97441.3***      49689.2***
+                       (11420.30)      (11420.30)      (11420.30)      (12380.39)   
+------------------------------------------------------------------------------------
+Observations                 2887            2887            2887            2887   
+------------------------------------------------------------------------------------
+Standard errors in parentheses
+* p<0.10, ** p<0.05, *** p<0.01
+      name:  <unnamed>
+       log:  D:\GitHub\2022-vtuber\data02_processed/log_ols_agency1.log
+  log type:  text
+ closed on:  11 Jul 2022, 23:18:33
+------------------------------------------------------------------------------------------------------------------

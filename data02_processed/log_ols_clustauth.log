@@ -1,0 +1,1125 @@
+------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  D:\GitHub\2022-vtuber\data02_processed/log_ols_clustauth.log
+  log type:  text
+ opened on:  11 Jul 2022, 23:18:38
+
+. 
+. esttab model*, star(* 0.10 ** 0.05 *** 0.01) se(%7.2f) nobase l
+
+------------------------------------------------------------------------------------
+                              (1)             (2)             (3)             (4)   
+                            Views           Views           Views           Views   
+------------------------------------------------------------------------------------
+Days since debut v~o       -18.50          -21.94          -23.20          -9.816   
+                          (55.74)         (54.48)         (45.91)         (26.62)   
+
+Days since debut v~)      -0.0124        -0.00224          0.0157       -0.000780   
+                           (0.05)          (0.05)          (0.04)          (0.03)   
+
+Debut video (dummy~1     176435.3***     176015.8***     170177.3***     171567.8***
+                       (47887.12)      (47878.77)      (48442.46)      (52492.83)   
+
+Female (dummy)=1                          25800.4***                       1107.1   
+                                        (8591.13)                       (1067.50)   
+
+MAHA5                                                    -59165.2***     -89656.2   
+                                                       (15542.82)      (54501.82)   
+
+NIJISANJI ID                                             -72472.0***     -24038.2***
+                                                       (13931.80)       (1105.23)   
+
+Alia Adelia【MAHA5】                                                     197566.9***
+                                                                        (1067.50)   
+
+Amicia Michella【~ん                                                      -1288.3***
+                                                                         (440.83)   
+
+Andi Adinata【MA~5】                                                     237154.0***
+                                                                           (0.00)   
+
+Anya Melfissa.. ho~D                                                     -11044.0***
+                                                                        (1024.82)   
+
+Ayunda Risu Ch. ho~D                                                      31365.8***
+                                                                         (101.57)   
+
+Azura Cecillia Ch.                                                        -7421.3   
+                                                                        (5077.79)   
+
+Bonnivier Pranaja ~                                                        4017.7***
+                                                                         (731.35)   
+
+Derem Kado 【にじ~】                                                      -4807.8***
+                                                                        (1262.29)   
+
+Etna Crimson【NIJ~】                                                      -5513.6***
+                                                                        (1011.88)   
+
+Hana Macchia ..【~】                                                      14880.8***
+                                                                        (1505.83)   
+
+Hyona Elatiora【N~じ                                                      -3759.8***
+                                                                         (733.48)   
+
+Kaela Kovalsk.. ho~D                                                       9782.4** 
+                                                                        (4413.05)   
+
+Kevin Vangardo【~5】                                                      59441.0   
+                                                                       (52864.32)   
+
+Kobo Kanaeru .. ho~D                                                     111317.7***
+                                                                        (5256.42)   
+
+Kureiji Ollie.. ho~D                                                      44992.9***
+                                                                        (1080.40)   
+
+Layla Alstroemeri~に                                                      -4516.9** 
+                                                                        (2142.10)   
+
+Lumi Celestia【M~5】                                                      77166.4   
+                                                                       (53790.28)   
+
+Mika Melatika【NI~】                                                       2247.8   
+                                                                        (4447.29)   
+
+Miyu Ottavia 【NI~】                                                       -492.7   
+                                                                        (1117.60)   
+
+Moona Hoshinova ho~D                                                      34453.8***
+                                                                        (1598.25)   
+
+NANARIKA Channel                                                          51802.4   
+                                                                       (51455.48)   
+
+Nagisa Arcinia【N~】                                                      -6585.7***
+                                                                         (954.05)   
+
+Nara Haramaung【 ~ん                                                      -3591.5***
+                                                                         (353.85)   
+
+Nia Redalion【MA~5】                                                      64359.1   
+                                                                       (54585.51)   
+
+Pavolia Reine.. ho~D                                                       9449.8***
+                                                                        (2089.93)   
+
+Rai Galilei【NIJI~】                                                      -1996.6** 
+                                                                         (954.78)   
+
+Rena Anggraeni【~5】                                                      61954.6   
+                                                                       (53117.70)   
+
+Reza Avanluna 【N~じ                                                      -4749.5***
+                                                                         (737.81)   
+
+Riksa Dhirendra【~】                                                      -6150.5** 
+                                                                        (2558.94)   
+
+Siska Leontyne 【~ん                                                       -63.63   
+                                                                         (559.66)   
+
+Taka Radjiman【NI~】                                                            0   
+                                                                              (.)   
+
+Vestia Zeta Ch. ho~D                                                      97772.1***
+                                                                        (4419.54)   
+
+Xia Ekavira【NIJI~】                                                     -12907.1***
+                                                                        (2900.55)   
+
+ZEA Cornelia【NIJ~】                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5】                                                            0   
+                                                                              (.)   
+
+Fall Guys                                                                 -8469.6***
+                                                                        (1546.79)   
+
+Freetalk                                                                  -1371.3   
+                                                                         (987.02)   
+
+Genshin/Honkai                                                             -113.1   
+                                                                         (461.48)   
+
+Karaoke                                                                    4652.2***
+                                                                         (261.39)   
+
+Minecraft                                                                 17227.1***
+                                                                         (988.21)   
+
+Music                                                                    149167.2***
+                                                                         (187.63)   
+
+Others                                                                     6359.0***
+                                                                         (745.49)   
+
+Phasmo                                                                     4441.4***
+                                                                         (508.22)   
+
+Valorant                                                                  -2969.1   
+                                                                        (1997.74)   
+
+Alia Adelia【MAHA5~s                                                            0   
+                                                                              (.)   
+
+Alia Adelia【MAHA5~k                                                            0   
+                                                                              (.)   
+
+Alia Adelia【MAHA5~n                                                            0   
+                                                                              (.)   
+
+Alia Adelia【MAHA5~e                                                            0   
+                                                                              (.)   
+
+Alia Adelia【MAHA5~t                                                            0   
+                                                                              (.)   
+
+Alia Adelia【MAHA5~c                                                            0   
+                                                                              (.)   
+
+Alia Adelia【MAHA5~s                                                            0   
+                                                                              (.)   
+
+Alia Adelia【MAHA5~o                                                            0   
+                                                                              (.)   
+
+Alia Adelia【MAHA5~t                                                            0   
+                                                                              (.)   
+
+Amicia Michella【~ん                                                       8255.7***
+                                                                         (246.67)   
+
+Amicia Michella【~ん                                                        587.5   
+                                                                         (457.24)   
+
+Amicia Michella【~ん                                                       -921.2***
+                                                                         (204.56)   
+
+Amicia Michella【~ん                                                            0   
+                                                                              (.)   
+
+Amicia Michella【~ん                                                     -16712.7***
+                                                                        (1162.59)   
+
+Amicia Michella【~ん                                                     -88371.1***
+                                                                         (638.82)   
+
+Amicia Michella【~ん                                                      -5844.6***
+                                                                         (822.58)   
+
+Amicia Michella【~ん                                                      -1479.7   
+                                                                        (1359.82)   
+
+Amicia Michella【~ん                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~s                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~k                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~o                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~e                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~t                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~c                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~s                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~o                                                            0   
+                                                                              (.)   
+
+Andi Adinata【MAHA~t                                                            0   
+                                                                              (.)   
+
+Anya Melfissa.. ho~s                                                      20971.3***
+                                                                        (1631.06)   
+
+Anya Melfissa.. ho~k                                                       4565.5***
+                                                                         (114.57)   
+
+Anya Melfissa.. ho~i                                                            0   
+                                                                              (.)   
+
+Anya Melfissa.. ho~e                                                       6541.8** 
+                                                                        (2716.31)   
+
+Anya Melfissa.. ho~t                                                       2845.5   
+                                                                        (2615.13)   
+
+Anya Melfissa.. ho~c                                                     159330.8***
+                                                                         (637.06)   
+
+Anya Melfissa.. ho~s                                                       4361.2***
+                                                                         (459.30)   
+
+Anya Melfissa.. ho~o                                                            0   
+                                                                              (.)   
+
+Anya Melfissa.. ho~t                                                            0   
+                                                                              (.)   
+
+Ayunda Risu Ch. ho~s                                                     -23163.8***
+                                                                         (593.44)   
+
+Ayunda Risu Ch. ho~k                                                     -21024.5***
+                                                                         (681.50)   
+
+Ayunda Risu Ch. ho~i                                                            0   
+                                                                              (.)   
+
+Ayunda Risu Ch. ho~e                                                       6558.5***
+                                                                         (981.38)   
+
+Ayunda Risu Ch. ho~t                                                     -31953.5***
+                                                                        (1008.55)   
+
+Ayunda Risu Ch. ho~c                                                     457765.7***
+                                                                         (192.96)   
+
+Ayunda Risu Ch. ho~s                                                     -25710.1***
+                                                                          (81.45)   
+
+Ayunda Risu Ch. ho~o                                                            0   
+                                                                              (.)   
+
+Ayunda Risu Ch. ho~t                                                            0   
+                                                                              (.)   
+
+Azura Cecilli.. # ~s                                                       9856.1*  
+                                                                        (5148.47)   
+
+Azura Cecilli.. # ~k                                                       3065.9   
+                                                                        (4543.51)   
+
+Azura Cecilli.. # ~i                                                       5570.7   
+                                                                        (5001.44)   
+
+Azura Cecilli.. # ~e                                                       1029.6   
+                                                                        (4294.80)   
+
+Azura Cecilli.. # ~t                                                     -14493.4***
+                                                                        (3754.64)   
+
+Azura Cecilli.. # ~c                                                    -121698.5***
+                                                                        (4423.82)   
+
+Azura Cecilli.. # ~s                                                      -3754.6   
+                                                                        (4020.89)   
+
+Azura Cecilli.. # ~o                                                      -1530.7   
+                                                                        (3612.96)   
+
+Azura Cecilli.. # ~t                                                       6751.1   
+                                                                        (4988.56)   
+
+Bonnivier Pranaja ~                                                        2184.7   
+                                                                        (2516.83)   
+
+Bonnivier Pranaja ~                                                       -4836.6***
+                                                                         (771.11)   
+
+Bonnivier Pranaja ~                                                             0   
+                                                                              (.)   
+
+Bonnivier Pranaja ~                                                             0   
+                                                                              (.)   
+
+Bonnivier Pranaja ~                                                      -19019.2***
+                                                                         (232.35)   
+
+Bonnivier Pranaja ~                                                     -108909.6***
+                                                                         (315.05)   
+
+Bonnivier Pranaja ~                                                       -9767.3***
+                                                                         (520.95)   
+
+Bonnivier Pranaja ~                                                        1174.1** 
+                                                                         (480.80)   
+
+Bonnivier Pranaja ~                                                         859.0   
+                                                                        (2225.47)   
+
+Derem Kado 【にじ~#                                                       4651.2***
+                                                                        (1536.39)   
+
+Derem Kado 【にじ~#                                                      -4658.2** 
+                                                                        (1745.82)   
+
+Derem Kado 【にじ~#                                                      -4333.1   
+                                                                        (5063.46)   
+
+Derem Kado 【にじ~#                                                        824.4   
+                                                                        (1401.12)   
+
+Derem Kado 【にじ~#                                                     -17281.4***
+                                                                         (630.71)   
+
+Derem Kado 【にじ~#                                                    -130709.1***
+                                                                         (301.53)   
+
+Derem Kado 【にじ~#                                                      -8929.5***
+                                                                         (462.37)   
+
+Derem Kado 【にじ~#                                                      -5337.3***
+                                                                        (1474.47)   
+
+Derem Kado 【にじ~#                                                            0   
+                                                                              (.)   
+
+Etna Crimson【NIJI~                                                        7239.4***
+                                                                        (1781.34)   
+
+Etna Crimson【NIJI~                                                         746.4   
+                                                                        (1119.20)   
+
+Etna Crimson【NIJI~                                                         603.9   
+                                                                        (3466.11)   
+
+Etna Crimson【NIJI~                                                       -3419.6***
+                                                                         (657.69)   
+
+Etna Crimson【NIJI~                                                      -16167.2***
+                                                                         (601.20)   
+
+Etna Crimson【NIJI~                                                     -134764.7***
+                                                                        (1005.30)   
+
+Etna Crimson【NIJI~                                                       -6298.5***
+                                                                         (687.21)   
+
+Etna Crimson【NIJI~                                                       -4471.6** 
+                                                                        (1855.19)   
+
+Etna Crimson【NIJI~                                                        2360.6***
+                                                                         (527.78)   
+
+Hana Macchia ..【N~s                                                       9706.6***
+                                                                        (2328.23)   
+
+Hana Macchia ..【N~k                                                       -468.6   
+                                                                         (708.86)   
+
+Hana Macchia ..【N~k                                                       9664.0***
+                                                                         (735.04)   
+
+Hana Macchia ..【N~e                                                      -7243.3***
+                                                                        (1913.17)   
+
+Hana Macchia ..【N~t                                                     -23476.7***
+                                                                        (1041.33)   
+
+Hana Macchia ..【N~c                                                     -63490.5***
+                                                                         (665.09)   
+
+Hana Macchia ..【N~s                                                      -4594.2***
+                                                                         (376.52)   
+
+Hana Macchia ..【N~o                                                     -10523.5***
+                                                                        (1146.71)   
+
+Hana Macchia ..【N~t                                                       4161.6** 
+                                                                        (1861.86)   
+
+Hyona Elatiora【N~じ                                                            0   
+                                                                              (.)   
+
+Hyona Elatiora【N~じ                                                       -857.8   
+                                                                        (3676.49)   
+
+Hyona Elatiora【N~じ                                                      -1894.7   
+                                                                        (6450.85)   
+
+Hyona Elatiora【N~じ                                                      -6508.9   
+                                                                        (6335.53)   
+
+Hyona Elatiora【N~じ                                                     -20552.9***
+                                                                        (3834.43)   
+
+Hyona Elatiora【N~じ                                                    -148505.1***
+                                                                        (2603.24)   
+
+Hyona Elatiora【N~じ                                                     -10561.6***
+                                                                        (3362.47)   
+
+Hyona Elatiora【N~じ                                                      -8114.6   
+                                                                        (4931.68)   
+
+Hyona Elatiora【N~じ                                                            0   
+                                                                              (.)   
+
+Kaela Kovalsk.. ho~s                                                            0   
+                                                                              (.)   
+
+Kaela Kovalsk.. ho~k                                                     -17386.9***
+                                                                         (877.31)   
+
+Kaela Kovalsk.. ho~i                                                            0   
+                                                                              (.)   
+
+Kaela Kovalsk.. ho~e                                                            0   
+                                                                              (.)   
+
+Kaela Kovalsk.. ho~t                                                      14490.0***
+                                                                        (1470.44)   
+
+Kaela Kovalsk.. ho~c                                                            0   
+                                                                              (.)   
+
+Kaela Kovalsk.. ho~s                                                            0   
+                                                                              (.)   
+
+Kaela Kovalsk.. ho~o                                                            0   
+                                                                              (.)   
+
+Kaela Kovalsk.. ho~t                                                            0   
+                                                                              (.)   
+
+Kevin Vangardo【MA~y                                                            0   
+                                                                              (.)   
+
+Kevin Vangardo【MA~k                                                       5321.3***
+                                                                         (616.49)   
+
+Kevin Vangardo【MA~/                                                       6044.1***
+                                                                         (845.99)   
+
+Kevin Vangardo【MA~e                                                      -1275.9** 
+                                                                         (474.19)   
+
+Kevin Vangardo【MA~f                                                     -12429.7***
+                                                                         (747.48)   
+
+Kevin Vangardo【MA~c                                                    -144968.6***
+                                                                        (1110.87)   
+
+Kevin Vangardo【MA~s                                                      -3474.1***
+                                                                         (813.66)   
+
+Kevin Vangardo【MA~o                                                            0   
+                                                                              (.)   
+
+Kevin Vangardo【MA~t                                                       7133.1***
+                                                                        (1850.68)   
+
+Kobo Kanaeru .. ho~s                                                            0   
+                                                                              (.)   
+
+Kobo Kanaeru .. ho~k                                                      48014.2***
+                                                                        (1620.17)   
+
+Kobo Kanaeru .. ho~i                                                            0   
+                                                                              (.)   
+
+Kobo Kanaeru .. ho~e                                                     262362.9***
+                                                                         (404.10)   
+
+Kobo Kanaeru .. ho~t                                                     101890.5***
+                                                                        (1677.28)   
+
+Kobo Kanaeru .. ho~c                                                    1198783.0***
+                                                                         (754.37)   
+
+Kobo Kanaeru .. ho~s                                                      98947.1***
+                                                                        (1987.14)   
+
+Kobo Kanaeru .. ho~o                                                            0   
+                                                                              (.)   
+
+Kobo Kanaeru .. ho~t                                                     166106.8***
+                                                                        (2648.90)   
+
+Kureiji Ollie.. ho~s                                                      -2669.2   
+                                                                        (1586.58)   
+
+Kureiji Ollie.. ho~k                                                      -9261.5***
+                                                                         (736.96)   
+
+Kureiji Ollie.. ho~i                                                            0   
+                                                                              (.)   
+
+Kureiji Ollie.. ho~e                                                     -28812.4***
+                                                                         (590.08)   
+
+Kureiji Ollie.. ho~t                                                        657.1   
+                                                                         (865.30)   
+
+Kureiji Ollie.. ho~c                                                     162333.7***
+                                                                        (1062.75)   
+
+Kureiji Ollie.. ho~s                                                       5581.8***
+                                                                         (574.74)   
+
+Kureiji Ollie.. ho~o                                                      33470.2***
+                                                                        (1473.23)   
+
+Kureiji Ollie.. ho~t                                                      -1770.6   
+                                                                        (2574.48)   
+
+Layla Alstroemeri~に                                                       8156.5***
+                                                                        (2832.26)   
+
+Layla Alstroemeri~に                                                       2543.9   
+                                                                        (1517.72)   
+
+Layla Alstroemeri~に                                                       1394.0   
+                                                                         (952.14)   
+
+Layla Alstroemeri~に                                                      -2923.8** 
+                                                                        (1393.22)   
+
+Layla Alstroemeri~に                                                     -14225.2***
+                                                                        (1257.92)   
+
+Layla Alstroemeri~に                                                    -126174.8***
+                                                                         (872.52)   
+
+Layla Alstroemeri~に                                                      -6692.1***
+                                                                        (1121.04)   
+
+Layla Alstroemeri~に                                                      -2918.0*  
+                                                                        (1449.69)   
+
+Layla Alstroemeri~に                                                            0   
+                                                                              (.)   
+
+Lumi Celestia【MAH~s                                                       7397.3** 
+                                                                        (3511.86)   
+
+Lumi Celestia【MAH~k                                                      -4055.4***
+                                                                        (1267.47)   
+
+Lumi Celestia【MAH~H                                                      -2289.9*  
+                                                                        (1256.93)   
+
+Lumi Celestia【MAH~e                                                     -17224.0***
+                                                                        (1030.62)   
+
+Lumi Celestia【MAH~t                                                      -9639.0***
+                                                                        (1955.28)   
+
+Lumi Celestia【MAH~c                                                     110343.1***
+                                                                         (468.92)   
+
+Lumi Celestia【MAH~s                                                            0   
+                                                                              (.)   
+
+Lumi Celestia【MAH~o                                                            0   
+                                                                              (.)   
+
+Lumi Celestia【MAH~t                                                            0   
+                                                                              (.)   
+
+Mika Melatika【NIJ~#                                                       8049.9***
+                                                                        (2277.30)   
+
+Mika Melatika【NIJ~#                                                      15077.9***
+                                                                        (2511.92)   
+
+Mika Melatika【NIJ~#                                                       3049.8   
+                                                                        (1885.31)   
+
+Mika Melatika【NIJ~#                                                      24400.7***
+                                                                        (3174.45)   
+
+Mika Melatika【NIJ~#                                                     -17146.7***
+                                                                        (1006.53)   
+
+Mika Melatika【NIJ~#                                                     -62978.5***
+                                                                        (1845.56)   
+
+Mika Melatika【NIJ~#                                                       8026.9***
+                                                                        (1568.28)   
+
+Mika Melatika【NIJ~#                                                      13838.4***
+                                                                         (427.95)   
+
+Mika Melatika【NIJ~#                                                            0   
+                                                                              (.)   
+
+Miyu Ottavia 【NI~】                                                       7707.1***
+                                                                        (1486.36)   
+
+Miyu Ottavia 【NI~】                                                        409.3   
+                                                                         (343.77)   
+
+Miyu Ottavia 【NI~】                                                       3999.3***
+                                                                        (1370.10)   
+
+Miyu Ottavia 【NI~】                                                      -2622.7***
+                                                                         (485.56)   
+
+Miyu Ottavia 【NI~】                                                     -15824.0***
+                                                                        (2916.17)   
+
+Miyu Ottavia 【NI~】                                                     -58223.5***
+                                                                         (722.06)   
+
+Miyu Ottavia 【NI~】                                                      -6239.3***
+                                                                         (527.37)   
+
+Miyu Ottavia 【NI~】                                                      -4815.3***
+                                                                         (172.53)   
+
+Miyu Ottavia 【NI~】                                                       2237.5** 
+                                                                        (1056.54)   
+
+Moona Hoshinova ho~a                                                     -28445.9***
+                                                                         (697.36)   
+
+Moona Hoshinova ho~r                                                       9332.1***
+                                                                        (2547.55)   
+
+Moona Hoshinova ho~e                                                            0   
+                                                                              (.)   
+
+Moona Hoshinova ho~a                                                      15183.3***
+                                                                        (1016.73)   
+
+Moona Hoshinova ho~i                                                      65681.9***
+                                                                        (2544.05)   
+
+Moona Hoshinova ho~u                                                     937843.4***
+                                                                        (1486.05)   
+
+Moona Hoshinova ho~t                                                        407.1   
+                                                                        (1365.77)   
+
+Moona Hoshinova ho~h                                                      48138.8***
+                                                                        (1232.10)   
+
+Moona Hoshinova ho~a                                                     -49187.9***
+                                                                         (225.58)   
+
+NANARIKA Channel #~s                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~k                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~a                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~e                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~t                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~c                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~s                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~o                                                            0   
+                                                                              (.)   
+
+NANARIKA Channel #~t                                                            0   
+                                                                              (.)   
+
+Nagisa Arcinia【NI~                                                        7336.0***
+                                                                        (1184.87)   
+
+Nagisa Arcinia【NI~                                                      -13445.3***
+                                                                        (4890.07)   
+
+Nagisa Arcinia【NI~                                                             0   
+                                                                              (.)   
+
+Nagisa Arcinia【NI~                                                       -6118.2*  
+                                                                        (3017.34)   
+
+Nagisa Arcinia【NI~                                                      -16872.5***
+                                                                         (535.37)   
+
+Nagisa Arcinia【NI~                                                     -136439.8***
+                                                                         (735.49)   
+
+Nagisa Arcinia【NI~                                                       -7692.6***
+                                                                        (1629.28)   
+
+Nagisa Arcinia【NI~                                                       -6021.4   
+                                                                        (3986.72)   
+
+Nagisa Arcinia【NI~                                                        3475.8** 
+                                                                        (1712.12)   
+
+Nara Haramaung【 ~ん                                                       7593.7***
+                                                                        (1272.12)   
+
+Nara Haramaung【 ~ん                                                       2743.3***
+                                                                         (701.09)   
+
+Nara Haramaung【 ~ん                                                            0   
+                                                                              (.)   
+
+Nara Haramaung【 ~ん                                                      -2164.2   
+                                                                        (2783.13)   
+
+Nara Haramaung【 ~ん                                                     -14871.7***
+                                                                         (846.05)   
+
+Nara Haramaung【 ~ん                                                    -129894.2***
+                                                                        (2197.79)   
+
+Nara Haramaung【 ~ん                                                      -4306.3***
+                                                                         (982.77)   
+
+Nara Haramaung【 ~ん                                                      -4871.8***
+                                                                         (761.61)   
+
+Nara Haramaung【 ~ん                                                       4120.0***
+                                                                         (651.04)   
+
+Nia Redalion【MAHA~s                                                       2898.6   
+                                                                        (1977.89)   
+
+Nia Redalion【MAHA~k                                                       2974.4***
+                                                                         (477.88)   
+
+Nia Redalion【MAHA~o                                                       1580.1***
+                                                                         (385.98)   
+
+Nia Redalion【MAHA~e                                                      -3664.9***
+                                                                         (742.03)   
+
+Nia Redalion【MAHA~t                                                     -11521.1***
+                                                                        (1310.00)   
+
+Nia Redalion【MAHA~c                                                      29207.1***
+                                                                         (301.28)   
+
+Nia Redalion【MAHA~s                                                            0   
+                                                                              (.)   
+
+Nia Redalion【MAHA~o                                                            0   
+                                                                              (.)   
+
+Nia Redalion【MAHA~t                                                            0   
+                                                                              (.)   
+
+Pavolia Reine.. ho~s                                                      10645.5***
+                                                                         (775.65)   
+
+Pavolia Reine.. ho~k                                                      -7522.5***
+                                                                        (1712.22)   
+
+Pavolia Reine.. ho~i                                                            0   
+                                                                              (.)   
+
+Pavolia Reine.. ho~e                                                      18571.2***
+                                                                         (887.76)   
+
+Pavolia Reine.. ho~t                                                       -487.3   
+                                                                        (1495.30)   
+
+Pavolia Reine.. ho~c                                                     332929.5***
+                                                                        (1193.66)   
+
+Pavolia Reine.. ho~s                                                      -5007.5***
+                                                                        (1677.03)   
+
+Pavolia Reine.. ho~o                                                       7455.5***
+                                                                        (1872.39)   
+
+Pavolia Reine.. ho~t                                                            0   
+                                                                              (.)   
+
+Rai Galilei【NIJIS~#                                                            0   
+                                                                              (.)   
+
+Rai Galilei【NIJIS~#                                                       -20.77   
+                                                                         (634.68)   
+
+Rai Galilei【NIJIS~#                                                            0   
+                                                                              (.)   
+
+Rai Galilei【NIJIS~#                                                       1065.6   
+                                                                         (926.01)   
+
+Rai Galilei【NIJIS~#                                                     -16967.0***
+                                                                         (942.59)   
+
+Rai Galilei【NIJIS~#                                                     -95651.7***
+                                                                        (1601.59)   
+
+Rai Galilei【NIJIS~#                                                      -7581.9***
+                                                                        (1551.11)   
+
+Rai Galilei【NIJIS~#                                                      -2693.9***
+                                                                         (709.55)   
+
+Rai Galilei【NIJIS~#                                                       1749.7** 
+                                                                         (652.31)   
+
+Rena Anggraeni【MA~y                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~k                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~/                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~e                                                      -8315.7***
+                                                                        (1032.78)   
+
+Rena Anggraeni【MA~f                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~c                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~s                                                     -12883.9***
+                                                                        (2131.87)   
+
+Rena Anggraeni【MA~o                                                            0   
+                                                                              (.)   
+
+Rena Anggraeni【MA~t                                                            0   
+                                                                              (.)   
+
+Reza Avanluna 【N~じ                                                       7433.1***
+                                                                         (639.13)   
+
+Reza Avanluna 【N~じ                                                       1148.3*  
+                                                                         (663.15)   
+
+Reza Avanluna 【N~じ                                                      -1086.5   
+                                                                        (4428.60)   
+
+Reza Avanluna 【N~じ                                                       4133.2***
+                                                                        (1463.53)   
+
+Reza Avanluna 【N~じ                                                     -15912.0***
+                                                                        (1061.31)   
+
+Reza Avanluna 【N~じ                                                    -141385.7***
+                                                                         (262.11)   
+
+Reza Avanluna 【N~じ                                                      -4592.2***
+                                                                         (595.69)   
+
+Reza Avanluna 【N~じ                                                      -4867.0   
+                                                                        (3409.05)   
+
+Reza Avanluna 【N~じ                                                       3437.5** 
+                                                                        (1425.26)   
+
+Riksa Dhirendra【N~l                                                      14580.5***
+                                                                        (4096.54)   
+
+Riksa Dhirendra【N~e                                                       5470.2   
+                                                                        (3473.11)   
+
+Riksa Dhirendra【N~n                                                       5442.7*  
+                                                                        (2962.13)   
+
+Riksa Dhirendra【N~r                                                       3724.4** 
+                                                                        (1721.82)   
+
+Riksa Dhirendra【N~n                                                     -12141.1***
+                                                                        (2515.53)   
+
+Riksa Dhirendra【N~s                                                     -88501.1***
+                                                                        (1592.15)   
+
+Riksa Dhirendra【N~h                                                      -2770.6   
+                                                                        (2533.29)   
+
+Riksa Dhirendra【N~a                                                       2143.5   
+                                                                        (2664.11)   
+
+Riksa Dhirendra【N~l                                                       2546.4   
+                                                                        (2488.29)   
+
+Siska Leontyne 【~ん                                                       3460.8   
+                                                                        (3721.07)   
+
+Siska Leontyne 【~ん                                                       2668.5***
+                                                                         (617.98)   
+
+Siska Leontyne 【~ん                                                      -1127.4   
+                                                                        (3265.14)   
+
+Siska Leontyne 【~ん                                                      -7269.3***
+                                                                        (2549.39)   
+
+Siska Leontyne 【~ん                                                     -16699.3***
+                                                                         (736.70)   
+
+Siska Leontyne 【~ん                                                     -86934.4***
+                                                                        (1535.85)   
+
+Siska Leontyne 【~ん                                                      -5517.6***
+                                                                         (802.38)   
+
+Siska Leontyne 【~ん                                                      -3465.8***
+                                                                        (1134.38)   
+
+Siska Leontyne 【~ん                                                      -1674.1   
+                                                                        (2016.16)   
+
+Taka Radjiman【NI~】                                                      11422.3***
+                                                                        (1550.62)   
+
+Taka Radjiman【NI~】                                                       2133.3***
+                                                                         (383.69)   
+
+Taka Radjiman【NI~】                                                       2985.0*  
+                                                                        (1591.44)   
+
+Taka Radjiman【NI~】                                                      12272.3***
+                                                                        (1907.67)   
+
+Taka Radjiman【NI~】                                                     -13513.8***
+                                                                         (879.34)   
+
+Taka Radjiman【NI~】                                                     -63878.3***
+                                                                         (440.79)   
+
+Taka Radjiman【NI~】                                                      -5356.1***
+                                                                         (401.63)   
+
+Taka Radjiman【NI~】                                                       8109.5***
+                                                                         (667.54)   
+
+Taka Radjiman【NI~】                                                       7451.1***
+                                                                        (2167.67)   
+
+Vestia Zeta Ch. ho~s                                                            0   
+                                                                              (.)   
+
+Vestia Zeta Ch. ho~k                                                            0   
+                                                                              (.)   
+
+Vestia Zeta Ch. ho~i                                                            0   
+                                                                              (.)   
+
+Vestia Zeta Ch. ho~e                                                       -858.3***
+                                                                         (271.40)   
+
+Vestia Zeta Ch. ho~t                                                     -58892.0***
+                                                                        (1158.58)   
+
+Vestia Zeta Ch. ho~c                                                     490308.6***
+                                                                        (1055.22)   
+
+Vestia Zeta Ch. ho~s                                                     -64632.2***
+                                                                         (741.94)   
+
+Vestia Zeta Ch. ho~o                                                            0   
+                                                                              (.)   
+
+Vestia Zeta Ch. ho~t                                                     -15441.2***
+                                                                        (2043.86)   
+
+Xia Ekavira【NIJIS~#                                                            0   
+                                                                              (.)   
+
+Xia Ekavira【NIJIS~#                                                       9616.3***
+                                                                         (682.09)   
+
+Xia Ekavira【NIJIS~#                                                            0   
+                                                                              (.)   
+
+Xia Ekavira【NIJIS~#                                                       5739.8***
+                                                                         (893.59)   
+
+Xia Ekavira【NIJIS~#                                                      -9533.9***
+                                                                         (744.96)   
+
+Xia Ekavira【NIJIS~#                                                    -134091.2***
+                                                                        (2029.93)   
+
+Xia Ekavira【NIJIS~#                                                            0   
+                                                                              (.)   
+
+Xia Ekavira【NIJIS~#                                                            0   
+                                                                              (.)   
+
+Xia Ekavira【NIJIS~#                                                            0   
+                                                                              (.)   
+
+ZEA Cornelia【NIJI~G                                                      10493.1***
+                                                                        (1698.85)   
+
+ZEA Cornelia【NIJI~a                                                        148.4   
+                                                                         (760.44)   
+
+ZEA Cornelia【NIJI~i                                                            0   
+                                                                              (.)   
+
+ZEA Cornelia【NIJI~k                                                      -1586.9   
+                                                                        (2919.71)   
+
+ZEA Cornelia【NIJI~r                                                     -17943.5***
+                                                                        (2188.43)   
+
+ZEA Cornelia【NIJI~c                                                     -85286.2***
+                                                                        (1761.40)   
+
+ZEA Cornelia【NIJI~s                                                      -7982.0***
+                                                                        (1528.56)   
+
+ZEA Cornelia【NIJI~o                                                      -3418.6   
+                                                                        (3147.90)   
+
+ZEA Cornelia【NIJI~a                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~s                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~k                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~n                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~e                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~t                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~c                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~s                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~o                                                            0   
+                                                                              (.)   
+
+Zen Gunawan【MAHA5~t                                                            0   
+                                                                              (.)   
+
+Constant                  37007.3***      16019.1         85718.6***      34445.5***
+                       (11935.88)      (10724.58)      (14525.28)       (4634.02)   
+------------------------------------------------------------------------------------
+Observations                10779           10779           10779           10779   
+------------------------------------------------------------------------------------
+Standard errors in parentheses
+* p<0.10, ** p<0.05, *** p<0.01
+
+. est clear
+
+. 
+. log close
+      name:  <unnamed>
+       log:  D:\GitHub\2022-vtuber\data02_processed/log_ols_clustauth.log
+  log type:  text
+ closed on:  11 Jul 2022, 23:18:40
+------------------------------------------------------------------------------------------------------------------
