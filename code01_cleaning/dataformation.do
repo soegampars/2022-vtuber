@@ -48,6 +48,10 @@ by author: gen datedebut1 = date if debut == 1
 	format datedebut %td
 replace debut = 1 if datedebut == . & nvideo == 1
 replace datedebut = date if datedebut == . & nvideo == 1
+rename datedebut datedebut1
+	by author: egen datedebut = min(datedebut1)
+	drop datedebut1
+	format datedebut %td
 
 gen careerlength = date-datedebut
 gen careerlength_sq = careerlength^2
@@ -94,6 +98,9 @@ gen contenttype = "Others"
 	replace contenttype = "Music" if ustrregexm(title, "cover", 1) > 0 | ustrregexm(title, "song", 1) > 0 | ustrregexm(title, "カバー", 1) > 0
 
 	replace contenttype = "Music" if ustrregexm(title, "cover", 1) > 0 
+	
+** Generate early talent identifier (Latest: Iofi Debut/HOLOLIVE-ID first gen debut)
+	gen early = datedebut <= 22017
 	
 encode contenttype, generate(contenttype_code)
 encode author, generate(author_code)
