@@ -95,7 +95,7 @@ gen contenttype = "Others"
 	
 	replace contenttype = "Karaoke" if ustrregexm(title, "karaoke", 1) > 0
 	
-	replace contenttype = "Music" if ustrregexm(title, "cover", 1) > 0 | ustrregexm(title, "song", 1) > 0 | ustrregexm(title, "カバー", 1) > 0
+	replace contenttype = "Music" if ustrregexm(title, "cover", 1) > 0 | ustrregexm(title, "song", 1) > 0 | ustrregexm(title, "カバー", 1) > 0 | ustrregexm(title, "歌ってみた", 1) > 0
 
 	replace contenttype = "Music" if ustrregexm(title, "cover", 1) > 0 
 	
