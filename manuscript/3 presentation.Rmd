@@ -1,40 +1,47 @@
 ---
 title: "Determinant Analysis of Indonesian Virtual YouTubers Viewership"
+subtitle: "Mock Presentation Draft"
+date: "14 Agustus 2022"
 author: "Sugampret"
 output: 
-  ioslides_presentation:
-    widescreen: true
-    css: styles.css
+  beamer_presentation:
+    incremental: TRUE
+    slide_level: 2
+
+  # ioslides_presentation:
+  #   widescreen: true
+  #   css: styles.css
 ---
 
 # Pendahuluan
 
-## Tujuan Penelitian
+### Tujuan Penelitian
 
 Penelitian ini bertujuan untuk mengeksplorasi pola pertumbuhan views dari kanal Virtual YouTuber yang berasal dari Indonesia dan mengumpulkan fakta dasar yang diperoleh melalui metode ilmiah.
 
-## Motivasi
+### Motivasi
 
 Penelitian hanya merupakan proyek hore-hore dan dijalankan hanya berdasarkan keingintahuan pribadi.
 
-## Batasan Penelitian
+### Batasan Penelitian
 
 Keterbatasan waktu dan tenaga membatasi jumlah sampel yang diolah. 
 Proses pemilihan sampel berdampak pada validitas eksternal, yang berarti kesimpulan yang diperoleh melalui penelitian ini tidak dapat serta merta berlaku bagi seluruh kanal dan talenta Virtual YouTuber yang ada.
 
 # Data dan Metodologi
 
-## Sumber dan deskripsi data
-12.011 observasi dari 36 kanal talenta yang berasal dari tiga agensi paling populer dalam industri Virtual YouTuber Indonesia. 
-Industri Virtual YouTuber Indonesia didefinisikan sebagai talenta Virtual YouTuber yang berasal dari Indonesia, terlepas dari asal dan kewarganegaraan target pasarnya.
-
-Data diperoleh dari situs https://mattw.io/youtube-metadata/bulk yang mengambil metadata video-video yang tampil pada kanal masing-masing talenta.
-
-## Sumber dan deskripsi data (cont'd)
-
-Masing-masing observasi merepresentasikan satu video yang diunggah (upload) atau dialirkan (stream) oleh masing-masing kanal. 
-
-**Caveat**: Video yang berdurasi di bawah satu menit atau masuk dalam kategori shorts diabaikan dalam kerangka analisis ini karena perbedaan karakteristik konten.
+  12.011 observasi dari 36 kanal talenta yang berasal dari tiga agensi paling populer dalam industri Virtual YouTuber Indonesia. 
+  Rentang waktu amatan dilakukan hingga 28 Juni 2022.
+  
+  Industri Virtual YouTuber Indonesia didefinisikan sebagai talenta Virtual YouTuber yang berasal dari Indonesia, terlepas dari asal dan kewarganegaraan target pasarnya.
+  
+  Data diperoleh dari situs https://mattw.io/youtube-metadata/bulk yang mengambil metadata video-video yang tampil pada kanal masing-masing talenta.
+  
+  ## Sumber dan deskripsi data (cont'd)
+  
+  Masing-masing observasi merepresentasikan satu video yang diunggah (upload) atau dialirkan (stream) oleh masing-masing kanal. 
+  
+  **Caveat**: Video yang berdurasi di bawah satu menit atau masuk dalam kategori *shorts* diabaikan dalam kerangka analisis ini karena perbedaan karakteristik konten.
 
 
 <!-- Spesifikasi/deskripsi singkat model penelitian -->
@@ -43,29 +50,36 @@ Masing-masing observasi merepresentasikan satu video yang diunggah (upload) atau
 
 ## Apakah panjang karir penting?
 
-Iya, panjang karir merupakan salah satu determinan penting.
+Panjang karir merupakan salah satu determinan penting. Analisis menemukan bahwa lama karir seorang talenta Virtual YouTuber memiliki hubungan yang signifikan secara statistik dengan tingkat viewership.
 
 ## Apakah hubungan antara panjang karir dan pertumbuhan views berbentuk linear?
 
 Perbandingan antara model yang menggunakan variabel panjang karir linear dan non-linear menunjukkan bahwa statistik goodness-of-fit dari hasil analisis non-linear lebih baik.
 
-Pola yang ditunjukkan dari analisis menunjukkan bahwa pertumbuhan views dari kanal Virtual YouTuber secara rata-rata menunjukkan pola kuadratik yang signifikan. 
+Pola yang ditunjukkan dari analisis menunjukkan bahwa pertumbuhan views dari kanal Virtual YouTuber secara rata-rata menunjukkan pola kuadratik yang signifikan.
 
 ## Apakah hubungan antara panjang karir dan pertumbuhan views berbentuk linear? (cont'd)
 
-Secara rata-rata, puncak pertumbuhan dicapai sekitar 610 hari setelah debut dan puncak viewership 84.3 persen lebih tinggi dari video pada awal karir. 
+Secara rata-rata, puncak pertumbuhan dicapai sekitar 610 hari setelah debut dengan puncak viewership 84.3 persen lebih tinggi dari video pada awal karir. 
+
+
+Ada kemungkinan bahwa pola pertumbuhan views dari masing-masing talent mengikuti rupa *product life cycle*, yang berarti tanpa inovasi atau jenis konten baru, kejenuhan bisa terjadi.
 
 ## Apakah jumlah video diunggah penting?
 
-Jumlah video yang diunggah juga merupakan determinan penting. Analisis yang dilakukan menunjukkan bahwa tren hubungan antara jumlah video yang diunggah dan viewership berbentuk huruf J.
+Analisis yang dilakukan menunjukkan bahwa tren hubungan antara jumlah video yang diunggah dan viewership berbentuk huruf J.
+
+**Penting!** Tidak serta merta berarti bahwa semakin banyak video yang diunggah, maka pertumbuhan akan semakin cepat. Pengaruh intensitas pembuatan konten oleh talenta terhadap pertumbuhan viewership sangat mungkin juga dipengaruhi oleh kualitas dan variasi konten (*unobserved variables*).
 
 ## Early starters vs Newcomers
 
-Pembagian subsampel antara talenta yang memulai debutnya sebelum dan setelah Juni 2020 menunjukkan bahwa talenta yang debut awal memiliki pola pertumbuhan viewership yang serupa yaitu kuadratik, sedangkan talenta yang debut setelah waktu tersebut menunjukkan tren linear positif namun dengan signifikansi yang lebih rendah.
+Pembagian subsampel antara talenta yang memulai debutnya sebelum dan setelah Juni 2020 menunjukkan bahwa talenta yang debut awal memiliki pola pertumbuhan viewership yang serupa dengan analisis sampel keseluruhan yaitu kuadratik, sedangkan talenta yang debut setelah waktu tersebut menunjukkan tren linear positif namun dengan signifikansi yang lebih rendah.
 
 ## Early starters vs Newcomers (cont'd)
 
-Analisis tersebut menunjukkan dua hal: (i) bahwa tren pertumbuhan viewership dalam jangka panjang menunjukkan tendensi perlambatan atau bahkan penyusutan, dan (ii) talenta yang baru debut dapat dikatakan memiliki pola tren yang sedikit berbeda dari satu sama lain melihat dari signifikansi yang lebih rendah. Poin kedua mungkin saja disebabkan tingkat kesuksesan berbeda masing-masing talenta baru dalam bersaing di industri dengan pangsa pasar yang sudah relatif matang terbentuk.
+Talenta yang baru debut dicurigai memiliki pola tren yang sedikit berbeda dari satu sama lain melihat dari signifikansi yang lebih rendah. Hal ini mungkin saja disebabkan tingkat kesuksesan berbeda masing-masing talenta baru dalam bersaing di industri dengan pangsa pasar yang sudah relatif matang terbentuk.
+
+<!-- Bukan efek seleksi alam -->
 
 # Karakteristik Lain yang Menentukan
 
@@ -87,6 +101,20 @@ Dalam sampel yang digunakan, tidak terbukti secara statistik bahwa talenta Virtu
 
 ## Kombinasi antara talenta tertentu dan tipe konten
 
-# Caveat
+Secara anekdotal, mudah membayangkan bahwa beberapa talenta memiliki keahlian atau keunikan tertentu yang membuat konten tertentu yang dibuat menjadi sangat menarik, misal: Stream Minecraft Moona, Stream Apex Ollie, Stream Xinetron Xia, dll.
 
-# Kesimpulan
+Banyak kombinasi antara talenta dan tipe konten tertentu yang berpengaruh signifikan secara statistik terhadap jumlah views suatu video.
+
+## Caveat
+
+Proses pemilihan sampel berdampak pada _validitas eksternal_, yang berarti kesimpulan yang diperoleh melalui penelitian ini tidak dapat serta merta berlaku bagi seluruh kanal dan talenta Virtual YouTuber yang ada.
+
+## Kesimpulan
+
+Studi ini mengonfirmasi bahwa pertumbuhan viewership dari kanal Virtual YouTuber secara statistik terbukti berkorelasi dengan waktu dan banyaknya konten yang dihasilkan beserta dengan pola hubungan dan estimasi kuantitatifnya. 
+
+Studi ini juga membuktikan keberadaan pengaruh faktor-faktor lain terhadap naik-turunnya *views* pada konten yang dibuat oleh Virtual YouTuber Indonesia, seperti misalnya agensi, gender talenta, serta kombinasi konten dan talenta tertentu. 
+
+## Replikasi
+
+Kode dan dataset yang digunakan pada analisis dapat diakses di https://github.com/soegampars/2022-vtuber

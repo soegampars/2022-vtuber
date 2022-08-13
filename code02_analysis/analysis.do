@@ -27,123 +27,39 @@ use $gitoutput/dataset, clear
 gen ln_views = ln(views)
 gen ln_careerlength = ln(careerlength)
 gen ln_careerlength_sq = ln(careerlength_sq) 
+gen nvideo_sq = nvideo^2
 
-** Model specification
-// local model1 ln_views	ln_careerlength ln_careerlength_sq i.debut i.female
-// local model2 ln_views	ln_careerlength ln_careerlength_sq i.debut i.female i.agency_code
-// local model3 ln_views	ln_careerlength ln_careerlength_sq i.debut i.female i.agency_code i.author_code##i.contenttype_code
+** Table 1: General Model & Linear/Non-Linear Comparison
 
-local model1 views	careerlength careerlength_sq i.debut i.female
-local model2 views	careerlength careerlength_sq i.debut i.female i.agency_code
-// local model3 views	careerlength careerlength_sq i.debut i.female i.agency_code i.author_code##i.contenttype_code
+	** Model Specification
+	local model1 ln_views	i.debut i.agency_code i.female i.author_code##i.contenttype_code careerlength
+	local model2 ln_views	i.debut i.agency_code i.female i.author_code##i.contenttype_code careerlength nvideo 
+	local model3 ln_views	i.debut i.agency_code i.female i.author_code##i.contenttype_code careerlength careerlength_sq nvideo nvideo_sq 
 
-******************************
-** CROSS-SECTIONAL ANALYSIS **
-******************************
+	local model1title "Linear w/o n Video"
+	local model2title "Linear w/ n Video"
+	local model3title "Non-Linear"
 
-** General Sample
-
-	** OLS
-// 	forval x = 1/3{
-	forval x = 1/2{
+	** Analysis
+	forval x = 1/3{
 
 	qui: reg `model`x'', robust
-	eststo model`x'_ols
+	eststo model`x'_ols, t(`model`x'title')
 
 	}
 	
-	esttab model*, star(* 0.10 ** 0.05 *** 0.01) se(%7.2f) nobase l
-	est clear
-	
-	** OLS Clustered: Author
-// 	forval x = 1/3{
-	forval x = 1/2{
-
-	qui: reg `model`x'', cluster(author_code)
-	eststo model`x'_ols
-
-	}
-	
-	esttab model*, star(* 0.10 ** 0.05 *** 0.01) se(%7.2f) nobase l
-	est clear
-	
-	** OLS Clustered: Agency
-// 	forval x = 1/3{
-	forval x = 1/2{
-
-	qui: reg `model`x'', cluster(agency_code)
-	eststo model`x'_ols
-
-	}
-	
-	esttab model*, star(* 0.10 ** 0.05 *** 0.01) se(%7.2f) nobase l
+	esttab model*, star(* 0.10 ** 0.05 *** 0.01) se(%7.2f) nobase l keep(careerlength* nvideo* 1.female 1.debut _cons) order(careerlength* nvideo* 1.female 1.debut _cons) r2 aic mti ti("Table 1. General Model & Linear/Non-Linear Comparison")
 	est clear
 
-** Heterogeneity Analysis
+** Table 2: Early Starters vs Newcomers
 
-	** OLS: By Gender
 	forval a = 0/1{
 
-// 	forval x = 1/3{
-	forval x = 1/2{
+	qui: reg `model3' if early == `a', robust
+	eststo model`a'_ols
 
-		qui: reg `model`x'' if female == `a', robust
-		eststo model`x'_ols
-
-		}
-		
-		esttab model*, star(* 0.10 ** 0.05 *** 0.01) se(%7.2f) nobase l
-		est clear
-
-	
 	}
 	
-	** OLS: By Agency
-	forval a = 1/3{
+	esttab model*, star(* 0.10 ** 0.05 *** 0.01) se(%7.2f) nobase l keep(careerlength careerlength_sq 1.debut *.agency_code nvideo) r2 aic
+	est clear
 
-// 	forval x = 1/3{
-	forval x = 1/2{
-
-		qui: reg `model`x'' if agency_code == `a', robust
-		eststo model`x'_ols
-
-		}
-		
-		esttab model*, star(* 0.10 ** 0.05 *** 0.01) se(%7.2f) nobase l
-		est clear
-
-	
-	}
-
-	** OLS: By Early Debut
-	forval a = 0/1{
-
-// 	forval x = 1/3{
-	forval x = 1/2{
-
-		qui: reg `model`x'' if early == `a', robust
-		eststo model`x'_ols
-
-		}
-		
-		esttab model*, star(* 0.10 ** 0.05 *** 0.01) se(%7.2f) nobase l
-		est clear
-
-	
-	}
-	
-/*
-//try to do a heterogeneity analysis between early vtubers and later vtubers, the viewership trend might differ since newer talents might not have to build their own audience: DONE
-
-//try another control: number of videos; hypothesis: the more they upload/stream, the quicker the audience building process
-
-use $gitoutput/dataset, clear
-
-collapse (min) datedebut, by(author)
-
-gen dategeneric = datedebut
-
-format dategeneric %tg
-
-sort datedebut
-*/
